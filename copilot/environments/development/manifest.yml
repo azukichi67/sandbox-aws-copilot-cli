@@ -7,16 +7,9 @@ name: development
 type: Environment
 
 # Import your own VPC and subnets or configure how they should be created.
-network:
-  vpc:
-    id: vpc-03d6099bd7d461124
-    subnets:
-      public:
-        - id: subnet-069c35e6fb56f3093
-        - id: subnet-0eefc022c8e2abe7b
-      private:
-        - id: subnet-0b451956a010a01b7
-        - id: subnet-04821e862b9863042
+# network:
+#   vpc:
+#     id:
 
 # Configure the load balancers in your environment, once created.
 # http:
